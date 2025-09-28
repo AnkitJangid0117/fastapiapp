@@ -17,6 +17,8 @@ app.add_middleware(
 
 
 
+
+
 # Load the telemetry data from the JSON file
 data_path = os.path.join(os.path.dirname(__file__), 'q-vercel-latency.json')
 df = pd.read_json(data_path)
